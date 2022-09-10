@@ -1,6 +1,6 @@
 
-package javacasa;
 import java.util.Scanner;
+
 public class ConversãoGraus {
 
 	public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class ConversãoGraus {
 		celsius = leia.nextInt();
 		
 		fahrenait=(celsius*9/5)+32;
-		System.out.print("oi " +nome+"a temperatura em garus fahrenait é:"+fahrenait);
+		System.out.print("oi " +nome+" a temperatura em garus fahrenait é:"+fahrenait);
 		
 	}
 
