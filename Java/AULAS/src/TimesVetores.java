@@ -39,7 +39,7 @@ public class TimesVetores {
 		{
 				if(auxTime.equals(times[j]))
 				{
-					System.out.println("Seu time é o " +times[j]+ " com um totaol de " +pontos[j] +" pontos");
+					System.out.println("Seu time é o " +times[j]+ " com um total de " +pontos[j] +" pontos");
 				}
 		}
 		
