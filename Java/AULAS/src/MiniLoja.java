@@ -78,18 +78,25 @@ public class MiniLoja {
 					
 					;		
 					System.out.print("Digite a quatidade que deseja comprar :");
-					carrinho[posicao] = leia.nextInt();
+				carrinho[posicao] = leia.nextInt();
 				}
 					
 			}
+
+			System.out.println("Carrinho de Compras");
+				for(int i=0;i<10;i++) {
+					if(auxCodigo.equals(codigo[i])){
+						posicao = i;
+						System.out.println("--------------------------------------------------------------------------------");
+						System.out.println("Código\t\tProduto\t\tPreço uni\tEstoque\tQuantidade Comprada");
+						System.out.println("--------------------------------------------------------------------------------");
+						System.out.println(codigo[i]+"\t"+produtos[i]+"\t"+valoruni[i]+" \t "+estoque[i]+" \t "+carrinho[posicao]);
+					}
 				
+				}
 			
 			
-			
-			
-			
-			
-					
+								
 		}while (fazerCompra=='S');
 			
 			System.out.println("Ate breve!");
